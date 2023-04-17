@@ -1,0 +1,89 @@
+@import "bootstrap";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+}
+
+body{    
+    font-size: 16px;
+    background-color: #fff;
+    width: 100%;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+/* зміна сторінок(лабораторних) */
+.switch-pages{
+    text-align: center;
+    background-color: #cacaca;
+    margin-bottom: 50px;
+}
+
+/* заголовок лабораторної */
+.lab-header{
+    text-align: center; 
+    background-color: #f77f6fcc;  
+}
+
+.lab-number{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #61f561;
+}
+
+.lab-theme{
+    text-align: center;
+    font-style: italic;
+    background-color: #c666e4;
+    margin-bottom: 20px;
+}
+
+/* резюме */
+.resume-table{
+    margin-bottom: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 2px solid #000;
+    background-color: #c7e4fd;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+thead{
+    text-align: center;
+}
+
+tbody{
+    text-align: justify;
+}
+
+td, th {
+    border: 1px solid #000;
+}
+  
+td{
+    background: #e7e7e7;
+    color: #000;
+    padding: 20px;
+}
+
+th {
+    background: #ffca2c;
+    color: #000;
+    font-weight: 700;
+    padding: 10px; 
+}
+  

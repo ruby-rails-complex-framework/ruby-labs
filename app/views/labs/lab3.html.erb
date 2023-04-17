@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/stylessheet/application.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <title>Resume</title>
+</head>
+<body>
+    <ul class="switch-pages">
+        <li><a class="switch-pages-item" href="<%= labs_index_path(@index)%>">lab1</a></li>
+        <li><a class="switch-pages-item" href="<%= labs_lab4_path(@lab4)%>">lab4</a></li>
+    </ul>
+    
+    <%# заголовок лабораторної %>
+    <p class="lab-header">Ничик Богдан, група ІП-20-1, варіант:??</p>
+    <p class="lab-number">Лабораторна робота №3</p>
+    <p class="lab-theme">тема: "HTML, CSS. Використання таблиць та стилів"</p>
+    
+    <%# резюме %>
+    <table>
+        <caption>Resume</caption>
+        <thead>
+            <tr>
+                <th>Element</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>Bohdan Nychyk</td>
+            </tr>
+            
+            <tr>
+                <td>Email</td>
+                <td>nychyk.b@gmail.com</td>
+            </tr>
+            
+            <tr>
+                <td>Phone number</td>
+                <td>+380686808321</td>
+            </tr>
+
+            <tr>
+                <td>Residence</td>
+                <td>Ivano-Frankivsk</td>
+            </tr>
+
+            <tr>
+                <td>Links</td>
+                <td>linkedin.com</td>
+            </tr>
+
+            <tr>
+                <td>Profile</td>
+                <td>Dolore dolore sit sit esse sunt labore adipisicing Lorem reprehenderit. Anim magna qui veniam adipisicing duis eu ex occaecat. Dolor reprehenderit aliquip magna non ut ut.</td>
+            </tr>
+
+            <tr>
+                <td>Technical skills</td>
+                <td>
+                    <ul>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore </li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tools</td>
+                <td>
+                    <ul>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                        <li>Ex elit excepteur occaecat non labore</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Education</td>
+                <td>IVANO-FRANKIVSK NATIONAL TECHICAL UNIVERSITY OF OIL AND GAS</td>
+            </tr>
+
+            <tr>
+                <td>Experience</td>
+                <td>Dolore dolore sit sit esse sunt labore adipisicing Lorem reprehenderit. Anim magna qui veniam adipisicing duis eu ex occaecat. Dolor reprehenderit aliquip magna non ut ut.</td>
+            </tr>
+
+            <tr>
+                <td>Languages</td>
+                <td>English (Intermediate)</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    
+</body>
